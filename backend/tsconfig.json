@@ -2,7 +2,7 @@
     "compilerOptions": {
         "allowJs": true,
         "checkJs": false,
-        "lib": ["ESNext"],
+        "lib": ["ESNext", "DOM"],
         "outDir": "dist",
         "removeComments": true,
         "target": "ES2016",
@@ -12,7 +12,8 @@
         "allowSyntheticDefaultImports": true,
     },
     "include": [
-        "src/**/*"
+        "src/**/*",
+        "tests/**/*"
     ],
     "exclude": [
         "node_modules",
