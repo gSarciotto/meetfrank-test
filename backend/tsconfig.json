@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "checkJs": false,
+        "lib": ["ESNext"],
+        "outDir": "dist",
+        "removeComments": true,
+        "target": "ES2016",
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "strict": true,
+        "allowSyntheticDefaultImports": true,
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist/**/*",
+    ]
+}
