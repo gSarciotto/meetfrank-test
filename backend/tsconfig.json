@@ -9,7 +9,8 @@
         "noImplicitAny": true,
         "noImplicitThis": true,
         "strict": true,
-        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "module": "CommonJS",
     },
     "include": [
         "src/**/*",
@@ -18,5 +19,5 @@
     "exclude": [
         "node_modules",
         "dist/**/*",
-    ]
+    ],
 }
